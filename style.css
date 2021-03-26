@@ -1,0 +1,49 @@
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+.top-header {
+    height: 8rem;
+    display: flex;
+    background: linear-gradient(0deg, rgb(120, 120, 120) 10%, rgb(70, 70, 70) 100%);
+    border-radius: 3px;
+}
+
+#table-div {
+    height: 800px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+#main-table {
+    background-color: rgb(200, 200, 200);
+    table-layout: fixed;
+}
+
+#main-table td {
+    /*height: 25px;*/
+    /*width: 25px;*/
+    width: 25px;
+    height: 25px;
+
+}
+
+.empty-cell {
+    border: 1px solid black;
+}
+
+.start-cell {
+    background-color: yellow;
+}
+
+.target-cell {
+    background-color: red;
+}
+
+.empty-cell:hover {
+
+    border-color: rgb(252, 215, 5);
+    border-radius: 3%;
+}
+
+.obstacle-cell {
+    background-color: blueviolet;
+}
